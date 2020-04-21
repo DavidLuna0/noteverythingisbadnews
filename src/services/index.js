@@ -8,7 +8,7 @@ export const getCountries = () => {
       headers: api.headers,
     })
     .then((resp) => {
-      return resp;
+      return resp.data.response;
     })
     .catch((err) => {
       return err;
@@ -18,7 +18,7 @@ export const getCountries = () => {
 
 export const getCovidDataByCountry = (country) => {
   const responseData = axios
-    .get(`${api.baseUrl.concat(api.statistics)}?search=${country}`, {
+    .get(`${api.baseUrl.concat(api.statistics)}?country=${country}`, {
       headers: api.headers,
     })
     .then((resp) => {
