@@ -3,6 +3,8 @@ import "./App.css";
 
 import { getCountries, getCovidDataByCountry } from "./services";
 
+import Header from './components/header'
+
 export default function App(props) {
   const [countries, setCountries] = useState('brazil');
   const [recovered, setRecovered] = useState(0);
@@ -30,9 +32,7 @@ export default function App(props) {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <div>Hello React App</div>
-      </header>
+      <Header/>
     </div>
   );
 }
