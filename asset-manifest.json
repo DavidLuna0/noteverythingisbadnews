@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/NotEverythingIsBadNews/static/css/main.073d49c5.chunk.css",
+    "main.js": "/NotEverythingIsBadNews/static/js/main.6d7ce29f.chunk.js",
+    "main.js.map": "/NotEverythingIsBadNews/static/js/main.6d7ce29f.chunk.js.map",
+    "runtime-main.js": "/NotEverythingIsBadNews/static/js/runtime-main.ba0fd93d.js",
+    "runtime-main.js.map": "/NotEverythingIsBadNews/static/js/runtime-main.ba0fd93d.js.map",
+    "static/js/2.f4573ebf.chunk.js": "/NotEverythingIsBadNews/static/js/2.f4573ebf.chunk.js",
+    "static/js/2.f4573ebf.chunk.js.map": "/NotEverythingIsBadNews/static/js/2.f4573ebf.chunk.js.map",
+    "index.html": "/NotEverythingIsBadNews/index.html",
+    "precache-manifest.deec94bd2bda4d2bf509faa2ace4c51b.js": "/NotEverythingIsBadNews/precache-manifest.deec94bd2bda4d2bf509faa2ace4c51b.js",
+    "service-worker.js": "/NotEverythingIsBadNews/service-worker.js",
+    "static/css/main.073d49c5.chunk.css.map": "/NotEverythingIsBadNews/static/css/main.073d49c5.chunk.css.map",
+    "static/js/2.f4573ebf.chunk.js.LICENSE.txt": "/NotEverythingIsBadNews/static/js/2.f4573ebf.chunk.js.LICENSE.txt",
+    "static/media/fonts.css": "/NotEverythingIsBadNews/static/media/bariol_thin_italic-webfont.2b6a6b52.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ba0fd93d.js",
+    "static/js/2.f4573ebf.chunk.js",
+    "static/css/main.073d49c5.chunk.css",
+    "static/js/main.6d7ce29f.chunk.js"
+  ]
+}
