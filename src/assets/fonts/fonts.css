@@ -1,0 +1,194 @@
+/* Bariol */
+@font-face {
+  font-family: "Bariol Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Bariol Regular"),
+    url("./bariol/bariol_regular-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Bariol Regular Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Bariol Regular Italic"),
+    url("./bariol/bariol_regular_italic-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Bariol Thin Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Bariol Thin Italic"),
+    url("./bariol/bariol_thin_italic-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Bariol Thin";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Bariol Thin"),
+    url("./bariol/bariol_thin-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Bariol Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Bariol Light"),
+    url("./bariol/bariol_light-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Bariol Light Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Bariol Light Italic"),
+    url("./bariol/bariol_light_italic-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Bariol Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Bariol Bold"),
+    url("./bariol/bariol_bold-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Bariol Bold Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Bariol Bold Italic"),
+    url("./bariol/bariol_bold_italic-webfont.woff") format("woff");
+}
+
+/* Boston */
+
+
+@font-face {
+    font-family: 'Boston Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Boston Regular'), url('./boston/BostonRegular.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Boston Regular It';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Boston Regular It'), url('./boston/BostonRegularIt.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Boston Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Boston Thin'), url('./boston/BostonThin.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Boston Thin It';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Boston Thin It'), url('./boston/BostonThinIt.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Boston ExtraLight';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Boston ExtraLight'), url('./boston/BostonExtraLight.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Boston ExtraLight It';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Boston ExtraLight It'), url('./boston/BostonExtraLightIt.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Boston Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Boston Light'), url('./boston/BostonLight.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Boston Light It';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Boston Light It'), url('./boston/BostonLightIt.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Boston SemiBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Boston SemiBold'), url('./boston/BostonSemiBold.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Boston SemiBold It';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Boston SemiBold It'), url('./boston/BostonSemiBoldIt.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Boston Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Boston Bold'), url('./boston/BostonBold.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Boston Bold It';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Boston Bold It'), url('./boston/BostonBoldIt.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Boston Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Boston Black'), url('./boston/BostonBlack.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Boston Black It';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Boston Black It'), url('./boston/BostonBlackIt.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Boston Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Boston Heavy'), url('./boston/BostonHeavy.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Boston Heavy It';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Boston Heavy It'), url('./boston/BostonHeavyIt.woff') format('woff');
+    }
