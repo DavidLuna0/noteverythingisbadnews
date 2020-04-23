@@ -7,7 +7,7 @@ export default function Header() {
     <header>
       <div className="overlay">
         <div className="page-title">
-        <h1>Nem Tudo São Más Noticías</h1>
+          <h1 className="title">Nem Tudo São Más Noticías</h1>
         </div>
       </div>
     </header>

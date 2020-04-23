@@ -24,7 +24,7 @@ header {
   height: auto;
 }
 
-h1 {
+.title {
   margin-top: 6px;
   font-family: "Bariol Bold";
   font-size: 33px;
