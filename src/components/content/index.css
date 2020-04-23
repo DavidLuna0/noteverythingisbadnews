@@ -11,35 +11,27 @@
   flex-direction: column;
   align-items: center;
   margin-top: 8px;
-  width: 97%;
-  background-color: #FCFCFC;
+  width: 100%;
+  background-color: #fcfcfc;
   background-size: cover;
-  border-radius: 7px;
   padding: 10px;
-  border: 1px solid #FCFCFC;
-  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  /*   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12); */
 }
 
 .content-title {
   flex-basis: 100%;
   font-family: "Comodo Regular";
-  color: #ffffff;
+  color: #999999;
   text-shadow: 0.8px 0.5px #cccccc;
 }
 
 .txt-border {
   margin-top: 7px;
-  background-color: #3f81fc;
-  width: fit-content;
+  width: 98%;
   height: fit-content;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-right: 12px;
-  padding-left: 12px;
-  border-radius: 20px;
-  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  padding-bottom: 7px;
+  border-bottom: 1px solid #bbbbbb;
 }
 
 .data-container {

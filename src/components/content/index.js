@@ -1,6 +1,7 @@
 import React from "react";
 
 import LinearProgress from "@material-ui/core/LinearProgress";
+import Card from "@material-ui/core/Card"
 
 import "./index.css";
 
@@ -47,6 +48,7 @@ export default function Content(props) {
           </div>
         </div>
       </div>
+      <Card>Teste cadr</Card>
     </div>
   );
 }
