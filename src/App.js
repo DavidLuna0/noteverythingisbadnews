@@ -8,7 +8,7 @@ import Content from "./components/content";
 
 export default function App(props) {
   const [countries, setCountries] = useState("brazil");
-  const [statistics, setStatistics] = useState();
+  const [statistics, setStatistics] = useState(null);
 
   useEffect(() => {
     handleStatisticsResponse();
@@ -27,11 +27,11 @@ export default function App(props) {
       active: response.cases.active,
       total: response.cases.total,
       deaths: response.deaths.total,
-      country: response.country
+      country: response.country,
     });
   }
-  console.log(countries)
-  console.log(statistics)
+  console.log(countries);
+  console.log(statistics);
 
   return (
     <div className="App">
