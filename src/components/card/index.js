@@ -10,15 +10,15 @@ import "./index.css";
 export default function MediaCard(props) {
   return (
     <Card className="root">
-      <CardActionArea>
+      <CardActionArea className="action-area">
         <CardMedia className="media" title="Active">
           <img className="image" src={props.image} alt="recipe thumbnail" />
         </CardMedia>
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
+          <Typography className="card-title" gutterBottom variant="h5" component="h2">
             {props.value}
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          <Typography className="text" variant="body2" color="textSecondary" component="p">
             {props.text}
           </Typography>
         </CardContent>

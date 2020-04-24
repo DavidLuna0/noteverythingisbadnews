@@ -1,13 +1,13 @@
 import React from "react";
 
-import LinearProgress from "@material-ui/core/LinearProgress";
+import { LinearProgress, Grid } from "@material-ui/core";
 import MediaCard from "../card";
 
 import "./index.css";
 
-import sick from "../../assets/images/coronavirus.png";
+import sick from "../../assets/images/medical-mask.png";
 import recovered from "../../assets/images/protected.png";
-import locations from "../../assets/images/locations.png"
+import brazil from "../../assets/images/brazil.png";
 
 export default function Content(props) {
   if (props.numbers === null) {
@@ -18,30 +18,41 @@ export default function Content(props) {
     );
   }
 
-  const activeText = "Estão atualmente doentes com o covid-19"
-  const recoveredText = "Se recuperaram do covid-19 desde o inicio do surto"
-  const totalText = "Foram infectados com o covid-19 desde o inicio do surto"
+  const activeText = "Pessoas estão atualmente infectados com o covid-19";
+  const recoveredText = "Se recuperaram do covid-19 desde o inicio do surto";
+  const totalText = "Foram infectados com o covid-19 desde o inicio do surto";
 
   return (
-    <div className="container">
-      <div className="statistics-container">
+    <Grid
+      container
+      spacing={3}
+    >
+      <Grid item container justify="center" xs={12}>
         <div className="txt-border">
           <h1 className="content-title">Dados em tempo real</h1>
         </div>
-        <div className="data-container">
-          <div className="data">
-            <div className="cards">
-              <MediaCard image={sick} value={props.numbers.active} text={activeText}></MediaCard>
-            </div>
-            <div className="cards">
-              <MediaCard image={recovered} value={props.numbers.recovered} text={recoveredText}></MediaCard>
-            </div>
-            <div className="cards">
-              <MediaCard image={locations} value={props.numbers.total} text={totalText}></MediaCard>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+      </Grid>
+      <Grid item container justify="center" xs>
+        <MediaCard
+          image={sick}
+          value={props.numbers.active}
+          text={activeText}
+        ></MediaCard>
+      </Grid>
+      <Grid item container justify="center" xs>
+        <MediaCard
+          image={recovered}
+          value={props.numbers.recovered}
+          text={recoveredText}
+        ></MediaCard>
+      </Grid>
+      <Grid item container justify="center" xs>
+        <MediaCard
+          image={brazil}
+          value={props.numbers.total}
+          text={totalText}
+        ></MediaCard>
+      </Grid>
+    </Grid>
   );
 }
