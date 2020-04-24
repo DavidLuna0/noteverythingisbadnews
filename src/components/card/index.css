@@ -1,0 +1,14 @@
+.root {
+    max-width: 100%;
+    background-color: aqua;
+}
+
+.media {
+    height: 200px;
+}
+
+.media > .image {
+    margin-top: 10px;
+    width: 70%;
+    height: 100%;
+}

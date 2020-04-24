@@ -1,9 +1,13 @@
 import React from "react";
 
 import LinearProgress from "@material-ui/core/LinearProgress";
-import Card from "@material-ui/core/Card"
+import MediaCard from "../card";
 
 import "./index.css";
+
+import sick from "../../assets/images/coronavirus.png";
+import recovered from "../../assets/images/protected.png";
+import locations from "../../assets/images/locations.png"
 
 export default function Content(props) {
   if (props.numbers === null) {
@@ -14,6 +18,10 @@ export default function Content(props) {
     );
   }
 
+  const activeText = "Estão atualmente doentes com o covid-19"
+  const recoveredText = "Se recuperaram do covid-19 desde o inicio do surto"
+  const totalText = "Foram infectados com o covid-19 desde o inicio do surto"
+
   return (
     <div className="container">
       <div className="statistics-container">
@@ -22,7 +30,7 @@ export default function Content(props) {
         </div>
         <div className="data-container">
           <div className="data">
-            <div className="text">
+            {/* <div className="text">
               UM TOTAL DE{" "}
               <span className="data-border">{props.numbers.total}</span> PESSOAS
               FORAM DIAGNOSTICADAS COM COVID-19 NO BRASIL DESDE O INICIO DO
@@ -44,11 +52,19 @@ export default function Content(props) {
               A CADA DIA MAIS PESSOAS SÃO CURADAS DO COVID-19, TEMOS UM TOTAL DE
               PESSOAS CURADAS MAIOR QUE A QUANTIDADE DE DOENTES ATUALMENTE.
               DEIXEMOS DE LADO OS PENSAMENOS NEGATIVOS E FAÇAMOS O OTIMISMO CRESCER EM NÓS
+            </div> */}
+            <div className="cards">
+              <MediaCard image={sick} value={props.numbers.active} text={activeText}></MediaCard>
+            </div>
+            <div className="cards">
+              <MediaCard image={recovered} value={props.numbers.recovered} text={recoveredText}></MediaCard>
+            </div>
+            <div className="cards">
+              <MediaCard image={locations} value={props.numbers.total} text={totalText}></MediaCard>
             </div>
           </div>
         </div>
       </div>
-      <Card>Teste cadr</Card>
     </div>
   );
 }
