@@ -1,9 +1,11 @@
 import React from "react";
 
-import { LinearProgress, Grid } from "@material-ui/core";
+import {Grid } from "@material-ui/core";
 import MediaCard from "../card";
 
 import "./index.css";
+
+import ProgressBar from "../progress"
 
 import sick from "../../assets/images/medical-mask.png";
 import recovered from "../../assets/images/protected.png";
@@ -18,7 +20,7 @@ export default function Content(props) {
   if (props.numbers === null) {
     return (
       <div className="progress">
-        <LinearProgress barColorPrimary="#1188ff" />
+        <ProgressBar />
       </div>
     );
   }

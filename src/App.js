@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link, Route, BrowserRouter, Switch, Redirect } from "react-router-dom";
+import { Link, Route, BrowserRouter, Switch } from "react-router-dom";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 
@@ -56,6 +56,7 @@ export default function App(props) {
           onChange={handleChange}
           indicatorColor="primary"
           textColor="primary"
+          TabIndicatorProps={{style: {background:'#1188ff'}}}
         >
           <Tab label="Sobre" component={Link} to="/about" />
           <Tab label="Dados do Covid-19" component={Link} to="/data" />
@@ -64,7 +65,7 @@ export default function App(props) {
         <Switch>
           <Route path="/about" render={() => <About />} />
           <Route path="/data" render={() => <Content numbers={statistics} />} />
-          <Route path="/news" render={() => <News/>} />
+          <Route path="/news" render={() => <News />} />
         </Switch>
       </BrowserRouter>
     </div>
