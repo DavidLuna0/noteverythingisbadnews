@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link, Route, BrowserRouter, Switch } from "react-router-dom";
+import { Link, Route, BrowserRouter, Switch, Redirect } from "react-router-dom";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 
@@ -63,6 +63,7 @@ export default function App(props) {
           <Tab label="Noticias" component={Link} to="/news" />
         </Tabs>
         <Switch>
+          <Redirect exact from="/" to="/data" />
           <Route path="/about" render={() => <About />} />
           <Route path="/data" render={() => <Content numbers={statistics} />} />
           <Route path="/news" render={() => <News />} />
