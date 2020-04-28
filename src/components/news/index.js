@@ -4,7 +4,7 @@ import React from "react";
 
 const News = () => (
   <div>
-    <h1>Noticias</h1>
+    <h1>News</h1>
   </div>
 );
 

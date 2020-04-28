@@ -11,8 +11,8 @@ export default function MediaCard(props) {
   return (
     <Card className="root">
       <CardActionArea className="action-area">
-        <CardMedia className="media" title="Active">
-          <img className="image" src={props.image} alt="recipe thumbnail" />
+        <CardMedia className="media" title="Covid-19">
+          <img className="image" src={props.image} alt="covid-19" />
         </CardMedia>
         <CardContent>
           <Typography className="card-title" gutterBottom variant="h5" component="h2">

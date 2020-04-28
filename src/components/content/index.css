@@ -1,13 +1,3 @@
-.content-title {
-  font-family: "Comodo Regular";
-  color: #999999;
-  text-shadow: 0.8px 0.5px #cccccc;
-}
-
-.txt-border {
-  margin-top: 7px;
-  width: 98%;
-  height: fit-content;
-  padding-bottom: 7px;
-  border-bottom: 1px solid #bbbbbb;
+.container {
+  margin-top: 1rem !important;
 }

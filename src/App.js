@@ -1,11 +1,5 @@
 import React, { useEffect, useState } from "react";
-import {
-  Link,
-  Route,
-  BrowserRouter,
-  Switch,
-  Redirect
-} from "react-router-dom";
+import { Link, Route, BrowserRouter, Switch, Redirect } from "react-router-dom";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 
@@ -47,7 +41,6 @@ export default function App(props) {
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
-
   };
 
   console.log(countries);
@@ -64,15 +57,14 @@ export default function App(props) {
           indicatorColor="primary"
           textColor="primary"
         >
-          <Tab label="Item One" component={Link} to="/one" />
-          <Tab label="Item Two" component={Link} to="/" />
-          <Tab label="Item Three" component={Link} to="/three" />
+          <Tab label="Sobre" component={Link} to="/about" />
+          <Tab label="Dados do Covid-19" component={Link} to="/data" />
+          <Tab label="Noticias" component={Link} to="/news" />
         </Tabs>
-        <Switch >
-          <Route path="/one" render={() => <About />} />
-          <Route path="/" render={() => <Content numbers={statistics} />} />
-          <Route path="/three" render={() => <News />} />
-          <Redirect to="/" />
+        <Switch>
+          <Route path="/about" render={() => <About />} />
+          <Route path="/data" render={() => <Content numbers={statistics} />} />
+          <Route path="/news" render={() => <News/>} />
         </Switch>
       </BrowserRouter>
     </div>

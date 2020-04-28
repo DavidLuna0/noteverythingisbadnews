@@ -18,7 +18,7 @@ export default function Content(props) {
   if (props.numbers === null) {
     return (
       <div className="progress">
-        <LinearProgress />
+        <LinearProgress barColorPrimary="#1188ff" />
       </div>
     );
   }
@@ -27,6 +27,7 @@ export default function Content(props) {
     <Grid
       container
       spacing={3}
+      className="container"
     >
       <Grid item container justify="center" xs>
         <MediaCard
