@@ -1,0 +1,16 @@
+.root-about {
+    display: flex;
+    flex-grow: 1;
+    margin: 1rem;
+    margin-top: -0.5rem;
+    height: 79vh;
+    justify-content: center;
+}
+
+.about-title {
+    font-family: 'Boston SemiBold' !important;
+}
+
+.about-text {
+    font-family: 'Boston SemiBold' !important;
+}
