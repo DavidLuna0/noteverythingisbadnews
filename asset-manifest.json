@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/noteverythingisbadnews/static/css/main.4a5f550c.chunk.css",
-    "main.js": "/noteverythingisbadnews/static/js/main.8362a35a.chunk.js",
-    "main.js.map": "/noteverythingisbadnews/static/js/main.8362a35a.chunk.js.map",
-    "runtime-main.js": "/noteverythingisbadnews/static/js/runtime-main.a44d4ab1.js",
-    "runtime-main.js.map": "/noteverythingisbadnews/static/js/runtime-main.a44d4ab1.js.map",
-    "static/js/2.034633bb.chunk.js": "/noteverythingisbadnews/static/js/2.034633bb.chunk.js",
-    "static/js/2.034633bb.chunk.js.map": "/noteverythingisbadnews/static/js/2.034633bb.chunk.js.map",
-    "index.html": "/noteverythingisbadnews/index.html",
-    "precache-manifest.573c53fd04b63df16a1b40969c152555.js": "/noteverythingisbadnews/precache-manifest.573c53fd04b63df16a1b40969c152555.js",
-    "service-worker.js": "/noteverythingisbadnews/service-worker.js",
-    "static/css/main.4a5f550c.chunk.css.map": "/noteverythingisbadnews/static/css/main.4a5f550c.chunk.css.map",
-    "static/js/2.034633bb.chunk.js.LICENSE.txt": "/noteverythingisbadnews/static/js/2.034633bb.chunk.js.LICENSE.txt",
-    "static/media/fonts.css": "/noteverythingisbadnews/static/media/bariol_thin_italic-webfont.2b6a6b52.woff",
-    "static/media/brazil.png": "/noteverythingisbadnews/static/media/brazil.6595f985.png",
-    "static/media/medical-mask.png": "/noteverythingisbadnews/static/media/medical-mask.aae22fa1.png",
-    "static/media/protected.png": "/noteverythingisbadnews/static/media/protected.8c06028e.png"
+    "main.css": "/noteverythingisbadnews/data/static/css/main.7e57489d.chunk.css",
+    "main.js": "/noteverythingisbadnews/data/static/js/main.8362a35a.chunk.js",
+    "main.js.map": "/noteverythingisbadnews/data/static/js/main.8362a35a.chunk.js.map",
+    "runtime-main.js": "/noteverythingisbadnews/data/static/js/runtime-main.f5b95bf6.js",
+    "runtime-main.js.map": "/noteverythingisbadnews/data/static/js/runtime-main.f5b95bf6.js.map",
+    "static/js/2.034633bb.chunk.js": "/noteverythingisbadnews/data/static/js/2.034633bb.chunk.js",
+    "static/js/2.034633bb.chunk.js.map": "/noteverythingisbadnews/data/static/js/2.034633bb.chunk.js.map",
+    "index.html": "/noteverythingisbadnews/data/index.html",
+    "precache-manifest.135b5c3c28c848912f4b4a1d3ba2e754.js": "/noteverythingisbadnews/data/precache-manifest.135b5c3c28c848912f4b4a1d3ba2e754.js",
+    "service-worker.js": "/noteverythingisbadnews/data/service-worker.js",
+    "static/css/main.7e57489d.chunk.css.map": "/noteverythingisbadnews/data/static/css/main.7e57489d.chunk.css.map",
+    "static/js/2.034633bb.chunk.js.LICENSE.txt": "/noteverythingisbadnews/data/static/js/2.034633bb.chunk.js.LICENSE.txt",
+    "static/media/fonts.css": "/noteverythingisbadnews/data/static/media/bariol_thin_italic-webfont.2b6a6b52.woff",
+    "static/media/brazil.png": "/noteverythingisbadnews/data/static/media/brazil.6595f985.png",
+    "static/media/medical-mask.png": "/noteverythingisbadnews/data/static/media/medical-mask.aae22fa1.png",
+    "static/media/protected.png": "/noteverythingisbadnews/data/static/media/protected.8c06028e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a44d4ab1.js",
+    "static/js/runtime-main.f5b95bf6.js",
     "static/js/2.034633bb.chunk.js",
-    "static/css/main.4a5f550c.chunk.css",
+    "static/css/main.7e57489d.chunk.css",
     "static/js/main.8362a35a.chunk.js"
   ]
 }
