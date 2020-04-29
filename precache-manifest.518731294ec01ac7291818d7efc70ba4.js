@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4607ae9d4e9e1eb3621c4fdd9638bb87",
+    "revision": "00418ca4c6d00dd6df1850244e960af8",
     "url": "/NotEverythingIsBadNews/index.html"
   },
   {
-    "revision": "7a9a60152371840b8da8",
-    "url": "/NotEverythingIsBadNews/static/css/main.073d49c5.chunk.css"
+    "revision": "41ac7ef348bb3268a900",
+    "url": "/NotEverythingIsBadNews/static/css/main.1d42a2d9.chunk.css"
   },
   {
-    "revision": "1bbd78ab2c85c5cac670",
-    "url": "/NotEverythingIsBadNews/static/js/2.f4573ebf.chunk.js"
+    "revision": "5906fae2f68f43e62119",
+    "url": "/NotEverythingIsBadNews/static/js/2.034633bb.chunk.js"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/NotEverythingIsBadNews/static/js/2.f4573ebf.chunk.js.LICENSE.txt"
+    "revision": "0749163b59fbee32225059cb60c18af6",
+    "url": "/NotEverythingIsBadNews/static/js/2.034633bb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7a9a60152371840b8da8",
-    "url": "/NotEverythingIsBadNews/static/js/main.6d7ce29f.chunk.js"
+    "revision": "41ac7ef348bb3268a900",
+    "url": "/NotEverythingIsBadNews/static/js/main.ebc28ae2.chunk.js"
   },
   {
     "revision": "2dbbd6eecba16ff40f66",
@@ -88,6 +88,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/NotEverythingIsBadNews/static/media/BostonThinIt.ac4fd485.woff"
   },
   {
+    "revision": "b34fa147ad65ff25aee7419114c831bd",
+    "url": "/NotEverythingIsBadNews/static/media/Comodo Regular.b34fa147.woff"
+  },
+  {
+    "revision": "106f4f8a0b22f4203ddcbed90732f37e",
+    "url": "/NotEverythingIsBadNews/static/media/Comodo Rough.106f4f8a.woff"
+  },
+  {
+    "revision": "36d05a81e5cd4ae76870241765c64723",
+    "url": "/NotEverythingIsBadNews/static/media/Comodo Stamp.36d05a81.woff"
+  },
+  {
+    "revision": "419eb3791a5b5f4a82f2c0106164fb08",
+    "url": "/NotEverythingIsBadNews/static/media/Comodo Vintage.419eb379.woff"
+  },
+  {
     "revision": "f21b49384fad5c08785474074e8c90a2",
     "url": "/NotEverythingIsBadNews/static/media/bariol_bold-webfont.f21b4938.woff"
   },
@@ -118,5 +134,17 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2b6a6b5260bb627dd45939ddbd9a8370",
     "url": "/NotEverythingIsBadNews/static/media/bariol_thin_italic-webfont.2b6a6b52.woff"
+  },
+  {
+    "revision": "6595f9851e3d0e4f051592c3a52adc94",
+    "url": "/NotEverythingIsBadNews/static/media/brazil.6595f985.png"
+  },
+  {
+    "revision": "aae22fa1f0e61c29472e1c1c41be31da",
+    "url": "/NotEverythingIsBadNews/static/media/medical-mask.aae22fa1.png"
+  },
+  {
+    "revision": "8c06028e45a7e0ddfa71fef1513f1eae",
+    "url": "/NotEverythingIsBadNews/static/media/protected.8c06028e.png"
   }
 ]);

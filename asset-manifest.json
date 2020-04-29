@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/NotEverythingIsBadNews/static/css/main.073d49c5.chunk.css",
-    "main.js": "/NotEverythingIsBadNews/static/js/main.6d7ce29f.chunk.js",
-    "main.js.map": "/NotEverythingIsBadNews/static/js/main.6d7ce29f.chunk.js.map",
+    "main.css": "/NotEverythingIsBadNews/static/css/main.1d42a2d9.chunk.css",
+    "main.js": "/NotEverythingIsBadNews/static/js/main.ebc28ae2.chunk.js",
+    "main.js.map": "/NotEverythingIsBadNews/static/js/main.ebc28ae2.chunk.js.map",
     "runtime-main.js": "/NotEverythingIsBadNews/static/js/runtime-main.ba0fd93d.js",
     "runtime-main.js.map": "/NotEverythingIsBadNews/static/js/runtime-main.ba0fd93d.js.map",
-    "static/js/2.f4573ebf.chunk.js": "/NotEverythingIsBadNews/static/js/2.f4573ebf.chunk.js",
-    "static/js/2.f4573ebf.chunk.js.map": "/NotEverythingIsBadNews/static/js/2.f4573ebf.chunk.js.map",
+    "static/js/2.034633bb.chunk.js": "/NotEverythingIsBadNews/static/js/2.034633bb.chunk.js",
+    "static/js/2.034633bb.chunk.js.map": "/NotEverythingIsBadNews/static/js/2.034633bb.chunk.js.map",
     "index.html": "/NotEverythingIsBadNews/index.html",
-    "precache-manifest.deec94bd2bda4d2bf509faa2ace4c51b.js": "/NotEverythingIsBadNews/precache-manifest.deec94bd2bda4d2bf509faa2ace4c51b.js",
+    "precache-manifest.518731294ec01ac7291818d7efc70ba4.js": "/NotEverythingIsBadNews/precache-manifest.518731294ec01ac7291818d7efc70ba4.js",
     "service-worker.js": "/NotEverythingIsBadNews/service-worker.js",
-    "static/css/main.073d49c5.chunk.css.map": "/NotEverythingIsBadNews/static/css/main.073d49c5.chunk.css.map",
-    "static/js/2.f4573ebf.chunk.js.LICENSE.txt": "/NotEverythingIsBadNews/static/js/2.f4573ebf.chunk.js.LICENSE.txt",
-    "static/media/fonts.css": "/NotEverythingIsBadNews/static/media/bariol_thin_italic-webfont.2b6a6b52.woff"
+    "static/css/main.1d42a2d9.chunk.css.map": "/NotEverythingIsBadNews/static/css/main.1d42a2d9.chunk.css.map",
+    "static/js/2.034633bb.chunk.js.LICENSE.txt": "/NotEverythingIsBadNews/static/js/2.034633bb.chunk.js.LICENSE.txt",
+    "static/media/fonts.css": "/NotEverythingIsBadNews/static/media/bariol_thin_italic-webfont.2b6a6b52.woff",
+    "static/media/brazil.png": "/NotEverythingIsBadNews/static/media/brazil.6595f985.png",
+    "static/media/medical-mask.png": "/NotEverythingIsBadNews/static/media/medical-mask.aae22fa1.png",
+    "static/media/protected.png": "/NotEverythingIsBadNews/static/media/protected.8c06028e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ba0fd93d.js",
-    "static/js/2.f4573ebf.chunk.js",
-    "static/css/main.073d49c5.chunk.css",
-    "static/js/main.6d7ce29f.chunk.js"
+    "static/js/2.034633bb.chunk.js",
+    "static/css/main.1d42a2d9.chunk.css",
+    "static/js/main.ebc28ae2.chunk.js"
   ]
 }
