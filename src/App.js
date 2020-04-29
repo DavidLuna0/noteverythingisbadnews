@@ -58,15 +58,15 @@ export default function App(props) {
           textColor="primary"
           TabIndicatorProps={{style: {background:'#1188ff'}}}
         >
-          <Tab label="Sobre" component={Link} to="/about" />
-          <Tab label="Dados do Covid-19" component={Link} to="/data" />
-          <Tab label="Noticias" component={Link} to="/news" />
+          <Tab label="Sobre" component={Link} to="/noteverythingisbadnews/about" />
+          <Tab label="Dados do Covid-19" component={Link} to="/noteverythingisbadnews/data" />
+          <Tab label="Noticias" component={Link} to="/noteverythingisbadnews/news" />
         </Tabs>
         <Switch>
-          <Redirect exact from="/" to="/data" />
-          <Route path="/about" render={() => <About />} />
-          <Route path="/data" render={() => <Content numbers={statistics} />} />
-          <Route path="/news" render={() => <News />} />
+          <Redirect exact from="/noteverythingisbadnews" to="/noteverythingisbadnews/data" />
+          <Route path="/noteverythingisbadnews/about" render={() => <About />} />
+          <Route path="/noteverythingisbadnews/data" render={() => <Content numbers={statistics} />} />
+          <Route path="/noteverythingisbadnews/news" render={() => <News />} />
         </Switch>
       </BrowserRouter>
     </div>
