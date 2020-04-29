@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/noteverythingisbadnews/static/css/main.4a5f550c.chunk.css",
-    "main.js": "/noteverythingisbadnews/static/js/main.882e6399.chunk.js",
-    "main.js.map": "/noteverythingisbadnews/static/js/main.882e6399.chunk.js.map",
+    "main.js": "/noteverythingisbadnews/static/js/main.8362a35a.chunk.js",
+    "main.js.map": "/noteverythingisbadnews/static/js/main.8362a35a.chunk.js.map",
     "runtime-main.js": "/noteverythingisbadnews/static/js/runtime-main.a44d4ab1.js",
     "runtime-main.js.map": "/noteverythingisbadnews/static/js/runtime-main.a44d4ab1.js.map",
     "static/js/2.034633bb.chunk.js": "/noteverythingisbadnews/static/js/2.034633bb.chunk.js",
     "static/js/2.034633bb.chunk.js.map": "/noteverythingisbadnews/static/js/2.034633bb.chunk.js.map",
     "index.html": "/noteverythingisbadnews/index.html",
-    "precache-manifest.f4682038573f3eb41f117731d8fbe046.js": "/noteverythingisbadnews/precache-manifest.f4682038573f3eb41f117731d8fbe046.js",
+    "precache-manifest.573c53fd04b63df16a1b40969c152555.js": "/noteverythingisbadnews/precache-manifest.573c53fd04b63df16a1b40969c152555.js",
     "service-worker.js": "/noteverythingisbadnews/service-worker.js",
     "static/css/main.4a5f550c.chunk.css.map": "/noteverythingisbadnews/static/css/main.4a5f550c.chunk.css.map",
     "static/js/2.034633bb.chunk.js.LICENSE.txt": "/noteverythingisbadnews/static/js/2.034633bb.chunk.js.LICENSE.txt",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.a44d4ab1.js",
     "static/js/2.034633bb.chunk.js",
     "static/css/main.4a5f550c.chunk.css",
-    "static/js/main.882e6399.chunk.js"
+    "static/js/main.8362a35a.chunk.js"
   ]
 }

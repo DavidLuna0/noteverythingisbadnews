@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d4f66c0ccfdcf0ea486816830a42ef5b",
+    "revision": "c43d20f46b1614abda6d2120cd32e3b2",
     "url": "/noteverythingisbadnews/index.html"
   },
   {
-    "revision": "73a77993c830a8d13425",
+    "revision": "62c6716d27926e73480d",
     "url": "/noteverythingisbadnews/static/css/main.4a5f550c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/noteverythingisbadnews/static/js/2.034633bb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "73a77993c830a8d13425",
-    "url": "/noteverythingisbadnews/static/js/main.882e6399.chunk.js"
+    "revision": "62c6716d27926e73480d",
+    "url": "/noteverythingisbadnews/static/js/main.8362a35a.chunk.js"
   },
   {
     "revision": "a5f0bfeae49d1b67c83f",
