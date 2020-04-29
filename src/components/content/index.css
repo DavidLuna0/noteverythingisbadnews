@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  margin-top: 1rem !important;
+  padding-right: -10px !important;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

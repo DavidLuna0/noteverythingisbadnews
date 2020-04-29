@@ -192,3 +192,37 @@
     font-weight: normal;
     src: local('Boston Heavy It'), url('./boston/BostonHeavyIt.woff') format('woff');
     }
+
+    /* Comodo */
+
+
+@font-face {
+  font-family: 'Comodo Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Comodo Regular'), url('./comodo/Comodo Regular.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Comodo Rough';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Comodo Rough'), url('./comodo/Comodo Rough.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Comodo Stamp';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Comodo Stamp'), url('./comodo/Comodo Stamp.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Comodo Vintage';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Comodo Vintage'), url('./comodo/Comodo Vintage.woff') format('woff');
+  }
