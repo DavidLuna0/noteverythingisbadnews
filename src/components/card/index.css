@@ -1,0 +1,28 @@
+.root {
+    width: 360px;
+    min-width: 315px;
+    min-height: 370px;
+}
+
+.action-area {
+    max-width: 360px;
+    min-height: 370px;
+}
+
+.media {
+    height: 200px;
+}
+
+.media > .image {
+    margin-top: 10px;
+    width: 70%;
+    height: 100%;
+}
+
+.text {
+    font-size: 20px !important;
+}
+
+.card-title {
+    margin-top: 10px;
+}
